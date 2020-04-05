@@ -3,7 +3,8 @@
 #include<time.h>
 void main()
 {
-	int a, b, c, d = 0, m = 1, n, p, q;
+	int a, b, c, d = 0;
+	int m = 1, n, p, q;
 	printf("请输入出题个数:");
 	scanf("%d", &n);
 	srand((unsigned)time(NULL));
