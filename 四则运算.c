@@ -19,7 +19,7 @@ void main()
 		case 0:
 			if (a + b <= 100)  //和不能超过100
 			{
-				printf("%d+%d=", a, b);
+				printf("%d＋%d=", a, b);
 				scanf("%d", &c);
 				if (a + b == c)
 				{
@@ -37,7 +37,7 @@ void main()
 		case 1:
 			if (a - b >= 0)  //差不为负
 			{
-				printf("%d-%d=", a, b);
+				printf("%d－%d=", a, b);
 				scanf("%d", &c);
 				if (a - b == c)
 				{
@@ -55,7 +55,7 @@ void main()
 		case 2:
 			if (a * b <= 100)   //积不能超过100
 			{
-				printf("%d*%d=", a, b);
+				printf("%d×%d=", a, b);
 				scanf("%d", &c);
 				if (a * b == c)
 				{
@@ -73,7 +73,7 @@ void main()
 		case 3:
 			if (b != 0 && (double)a / b - a / b == 0)  //商不为小数或分数
 			{
-				printf("%d/%d=", a, b);
+				printf("%d÷%d=", a, b);
 				scanf("%d", &c);
 				if (a / b == c)
 				{
